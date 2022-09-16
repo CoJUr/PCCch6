@@ -4,7 +4,7 @@ programming_words = {
     'value': 'An item associated with a key in a dictionary.',
     'elif': 'An abbreviation of "else if", used in conditional statements.',
     'list': 'A collection of items in a particular order.',
-    }
+}
 #
 # for word, definition in programming_words.items():
 #     print(f"{word.title()}: {definition}\n")
@@ -18,4 +18,3 @@ programming_words['boolean expression'] = 'An expression that evaluates to True 
 
 for word, definition in programming_words.items():
     print(f"{word.title()}: {definition}\n")
-

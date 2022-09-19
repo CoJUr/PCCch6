@@ -3,6 +3,7 @@ sent_messages = []
 
 
 def show_messages(messages):
+    """Print all messages in the list"""
     for message in messages:
         print(message)
 
@@ -11,6 +12,7 @@ show_messages(text_messages)
 
 
 def send_messages(messages, sent_messages_list):
+    """Individually print each message, and then move it to sent_messages"""
     while messages:
         current_message = messages.pop()
         print(f"Sending message: {current_message}")

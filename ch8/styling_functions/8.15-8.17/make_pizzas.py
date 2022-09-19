@@ -5,4 +5,3 @@ def make_pizza(size, *toppings):
         print(f"- {topping}")
 
     print(" is ready!")
-

@@ -6,6 +6,9 @@ def sandwich_builder(*items):
 
 
 sandwich_builder('lettuce', 'tomato', 'onion', 'pickles', 'mayo')
+
 sandwich_builder('onions', 'pickles', 'mayo')
-sandwich_builder('lettuce', 'tomato', 'onion', 'pickles', 'mayo', 'onions', 'pickles', 'mayo')
+
+sandwich_builder('lettuce', 'tomato', 'onion', 'pickles', 'mayo',
+                 'onions', 'pickles', 'mayo')
 
